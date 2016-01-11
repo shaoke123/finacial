@@ -1,0 +1,33 @@
+/*我的待办*/
+#page-main-tab-loan {
+	background: #66cc99 url(../images/icon-tab-loan.png) no-repeat;
+}
+#page-main-tab-reimbursement {
+	background: #a39add url(../images/icon-tab-reimbursement.png) no-repeat;
+}
+#page-main-tab-msgConfirm {
+	background: #66ccff url(../images/icon-tab-msg.png) no-repeat;
+}
+.table-list-done {
+	border-bottom: 1px solid #dcdcdc;
+}
+
+/*我的待办结束*/
+
+/*已办记录*/
+.page-main-tabs-done li {
+	width: 162px;
+	padding-right: 11px;
+	margin-left: 10px;
+	background-position: 15px !important;
+}
+.page-main-tabs-done #page-main-tab-daily {
+	background: #66cbff url(../images/icon-tab-daily.png) no-repeat;
+}
+.page-main-tabs-done #page-main-tab-hr {
+	background: #a39add url(../images/icon-tab-hr.png) no-repeat;
+}
+.page-main-tabs-done #page-main-tab-toPublic {
+	background: #66cdcc url(../images/icon-tab-toPublic.png) no-repeat;
+}
+/*已办记录结束*/

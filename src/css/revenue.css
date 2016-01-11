@@ -1,0 +1,62 @@
+/*营收录入*/
+.info-input-revenue .input-label-align {
+	width: 90px;
+}
+.info-input-revenue .input-text {
+	width: 228px;
+}
+.info-input-revenue .input-select {
+	width: 250px;
+}
+.info-input-revenue .input-label {
+	margin-left: 100px;
+}
+.input-textarea-revenueExplain {
+	width: 710px;
+}
+.add-attentionPerson-item {
+	float: left;
+	width: 218px;
+	padding: 20px 0px;
+	border: 1px dashed #1db4ad;
+	color: #1db4ad;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-right: 100px;
+}
+.add-attentionPerson {
+	/*padding-bottom: 25px;
+	border-bottom: 1px dashed #dcdcdc;*/
+}
+.add-attentionPerson-btn {
+	background: url(../images/icon-plus.png) no-repeat 68px;
+	margin-right: 0px;
+}
+.attentionPerson-item-del {
+	width: 10px;
+	height: 14px;
+	background: url(../images/icon-close-red.png) no-repeat;
+	cursor: pointer;
+	right: 10px;
+	top: 10px;
+}
+/*营收录入*/
+
+/*营收显示*/
+.revenue-info-show .billApply-item-hasSpace {
+	width: 400px;
+}
+.revenueExplain-content {
+	width: 763px;
+	line-height: 20px;
+}
+/*营收显示结束*/
+
+/*营收记录*/
+#page-main-tab-undoneRevenue {
+	background: #66cc99 url(../images/icon-revundone.png) no-repeat;
+}
+#page-main-tab-doneRevenue {                      
+	background: #a39add url(../images/icon-revdone.png) no-repeat;
+}
+/*营收记录结束*/

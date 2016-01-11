@@ -1,0 +1,34 @@
+.page-main-content {
+	margin-top: 0px;
+	padding-bottom: 20px;
+}
+.btn-s {
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	background-position: 20px !important;
+}
+.search-btn-normal {
+	margin-left: 10px;
+	background: #1db4ad url(../images/icon-search-h.png) no-repeat;
+}
+.search-btn-normal:hover {
+	background: #3fbfb9 url(../images/icon-search-h.png) no-repeat;
+}
+.export-btn {
+	background: #fbc93c url(../images/icon-export.png) no-repeat;
+}
+.export-btn:hover {
+	background: #fcd159 url(../images/icon-export.png) no-repeat;
+}
+.delete-btn {
+	background: #fbc93c url(../images/icon-delete-white.png) no-repeat;
+}
+.delete-btn:hover {
+	background: #fcd159 url(../images/icon-delete-white.png) no-repeat;
+}
+.search-advanced-label {
+	line-height: 30px;
+	margin-right: 5px;
+}

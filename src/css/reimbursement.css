@@ -1,0 +1,108 @@
+/*新建报销*/
+.reimbursement-nav-wrap li {
+	float: left;
+	margin-left: 15px;
+	background: #fff;
+}
+.reimbursement-nav {
+	float: left;
+	width: 214px;
+	height: 55px;
+	/*border-bottom: 2px solid #ebebeb;*/
+	border:1px solid #dcdcdc;
+	text-align: center;
+	padding-top: 170px;
+	background-position: center 29px !important;
+}
+.reimbursement-type-table{
+	display:none;
+	background:#fff;
+	color:#000;
+}
+.reimbursement-type-table td{
+	text-align:center;	
+}
+.reimbursement-nav:hover {
+	background-position: center 22px !important;
+}
+#reimbursement-nav-normal {
+	background: url(../images/reimbursement-nav-normal.png) no-repeat;
+}
+#reimbursement-nav-normal:hover {
+	background: url(../images/reimbursement-nav-normal-h.png) no-repeat;
+}
+#reimbursement-nav-travel {
+	background: url(../images/reimbursement-nav-travel.png) no-repeat;
+}
+#reimbursement-nav-travel:hover {
+	background: url(../images/reimbursement-nav-travel-h.png) no-repeat;
+}
+#reimbursement-nav-hr {
+	background: url(../images/reimbursement-nav-hr.png) no-repeat;
+}
+#reimbursement-nav-hr:hover {
+	background: url(../images/reimbursement-nav-hr-h.png) no-repeat;
+}
+#reimbursement-nav-toPublic {
+	background: url(../images/reimbursement-nav-toPublic.png) no-repeat;
+}
+#reimbursement-nav-toPublic:hover {
+	background: url(../images/reimbursement-nav-toPublic-h.png) no-repeat;
+}
+.reimbursement-tips {
+	background: #fff;
+	margin-top: 25px;
+	padding: 65px 0px 65px 20px;
+	/*border-bottom: 1px solid #dcdcdc;*/
+	border:1px solid #dcdcdc;
+}
+.reimbursement-tips-head {
+	height: 24px;
+	padding-left: 40px;
+	background: url(../images/icon-tips.png) no-repeat;
+}
+.reimbursement-tips-content {
+	margin-top: 35px;
+	margin-left: 40px;
+	padding-top: 40px;
+	border-top: 1px dashed #1db4ad;
+	line-height: 30px;
+}
+/*新建报销结束*/
+
+/*日常报销*/
+.info-input-reimbursement .input-label-align {
+	width: 48px;
+}
+.reimbursement-type {
+	margin-bottom: 15px;
+}
+/*日常报销结束*/
+.page-main-tabs li{
+	width:181px;
+}
+.search-area {
+  padding-left: 22px;
+}
+/*报销方式*/
+.reimbursement-way{
+	border: 1px solid #dcdcdc;
+    padding: 10px 25px;
+    background:#f2f2f2;
+}
+.reimbursement-table{
+	margin-top:10px;
+}
+.reimbursement-table td{
+	height:39px;
+}
+.reimbursement-type-margin{
+	margin-left:30px;
+}
+.page-attachment{
+	border: 1px solid #dcdcdc;
+}
+.reimbursement-table-bg {
+  background: #f2f2f2;
+  text-align:center;
+}

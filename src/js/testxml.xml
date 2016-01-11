@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<parent>
+    <first>
+        管理
+        <second>
+            账户信息
+        </second>
+        <second>
+            操作人员及权限
+        </second>
+    </first>
+
+    <first>
+        会计账务
+        <second>
+            账目设置
+            <third>
+                账务参数
+            </third>
+            <third>
+                会计科目
+            </third>
+        </second>
+        <second>
+            记账凭证
+        </second>
+    </first>
+
+    <first>
+        出纳
+    </first>
+
+    <first>
+        资产管理
+    </first>
+
+</parent>

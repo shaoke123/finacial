@@ -1,0 +1,53 @@
+.welcome-banner, .welcome-set {
+	border-bottom: 1px solid #dcdcdc;
+}
+.welcome-set {
+	width: 945px;
+	height: 365px;
+	margin-top: 15px;
+	background: url(../images/welcome-set-bg.jpg) no-repeat;
+}
+.welcome-headPhoto {
+	left: 410px;
+	top: 130px;
+}
+.welcome-headPhoto img {
+	width: 110px;
+	height: 110px;
+	border: 0px;
+}
+.headPhoto-border {
+	width: 129px;
+	height: 129px;
+	background: url(../images/welcome-set-headBorder.png) no-repeat;
+	left: -7px;
+	top: -6px;
+}
+.set-link-btn {
+	width: 171px;
+	height: 61px;
+	left: 385px;
+	top: 250px;
+	background: url(../images/welcome-set-link.png) no-repeat;
+	
+}
+.set-link-btn:hover {
+	-webkit-animation: tada ease-in 0.8s infinite;
+	-moz-animation: tada ease-in 0.8s infinite;
+}
+
+@-webkit-keyframes tada {
+	0% {-webkit-transform: scale(1);}	
+	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+	100% {-webkit-transform: scale(1) rotate(0);}
+}
+
+@-moz-keyframes tada {
+	0% {-moz-transform: scale(1);}	
+	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
+	100% {-moz-transform: scale(1) rotate(0);}
+}

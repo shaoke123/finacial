@@ -1,0 +1,232 @@
+.page-main-set {
+	background: #fff;
+	padding: 30px 20px;
+	border:1px solid #dadada;
+}
+.set-section {
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+.set-institution{
+	border:1px solid #dadada;
+	background:#fff;
+	margin-bottom: 15px;
+	margin-top:15px;
+	padding:18px 20px 20px 20px;
+}
+.set-institution p{
+	color:#000;
+}
+.set-rights{
+	border:1px solid #dadada;
+	background:#fff;
+	margin-bottom: 15px;
+	margin-top:15px;
+	padding:18px 20px 20px 20px;
+}
+.set-section h4 {
+	margin-top: 0px;
+}
+.set-section-costType {
+	margin-bottom: 10px;
+	border-top: 0px;
+	padding-top: 0px;
+}
+.costType-item {
+	width: 205px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	border: 1px solid #dcdcdc;
+	background: #fafafa;
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+.item-del-btn {
+	width: 10px;
+    height: 14px;
+    background: url(../images/icon-close-red.png) no-repeat;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+}
+.set-rights-menu {
+	border-bottom: 1px solid #1db4ad;
+	color: #fff;
+}
+.set-rights-menu li {
+	width: 226px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	background-position: right
+}
+#set-rights-finance {
+	background: #1db4ad;
+}
+#set-rights-finance.set-menu-active {
+	background: #19aaa3 url(../images/icon-arrow-l-big.png) no-repeat right;
+}
+#set-rights-statistics {
+	background: #6cceca;
+}
+#set-rights-statistics.set-menu-active {
+	background: #47c8c2 url(../images/icon-arrow-l-big.png) no-repeat right;
+}
+#set-rights-revenou {
+	background: #9be0dd;
+}
+#set-rights-revenou.set-menu-active {
+	background: #86dcd8 url(../images/icon-arrow-l-big.png) no-repeat right;
+}
+.set-rights-handleAndShow {
+	width: 300px;
+	background: #f7f7f7;
+}
+.set-rights-addUser {
+	padding: 10px 20px 0px;
+	background: url(../images/selectList-hLine.png) no-repeat center bottom;
+}
+.set-rights-addUser-icon {
+	width: 72px;
+	height: 53px;
+	background: url(../images/icon-add-user.png) no-repeat;
+}
+.set-rights-addUser-btn {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	background: #1db4ad url(../images/icon-plus-white.png) no-repeat 10px;
+	text-indent: 20px;
+	cursor: pointer;
+	margin-right: 20px;
+	right: 20px;
+}
+.set-rights-addUser-btn:hover{
+	background: #3fbfb9 url(../images/icon-plus-white.png) no-repeat 10px;
+}
+.set-rights-addedItems {
+	height: 370px;
+	padding: 20px 0px 10px 0px;
+	border-bottom: 1px solid #dcdcdc;
+	overflow: auto;
+	display: none;
+}
+.set-rights-item {
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 100px;
+}
+.set-rights-item:hover {
+	background: #e3f3f2;
+}
+.set-rights-item:hover .set-rights-delItem {
+	display: block;
+}
+.set-rights-delItem {
+	right: 50px;
+	top: 8px;
+	display: none;
+}
+.set-rights-explain {
+	/*
+	width: 339px;*/
+	line-height: 28px;
+	border-top:1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+	padding:10px 0px;
+	margin-bottom:15px;
+	color:#000;
+}
+.costType-input-wrap {
+	padding: 20px;
+}
+.costType-input-label {
+	margin-bottom: 10px;
+}
+.input-text-costType {
+	width: 238px;
+}
+.setRights-org {
+	padding-top: 0px;
+	border-top: 0px;
+}
+.setRights-classify {
+	border-top: 1px dashed #1db4ad;
+}
+/*Ȩ������tab*/
+.tab-title ul{margin-left:1px;}
+.tab-title li{
+	float:left;
+	width:119px;
+	height:39px;
+	line-hight:39px;
+	border-top:1px solid #dcdcdc;
+	border-right:1px solid #dcdcdc;
+	border-left:1px solid #dcdcdc;
+	margin-left:-1px;
+}
+.tab-title li a{
+	display:inline-block;
+	width:119px;
+	height:39px;
+	line-height:39px;
+	text-align:center;
+}
+.userimage{
+	border-radius:25px;
+	width:48px;
+	height:48px;
+}
+.set-right-tab{
+	color:#000;
+}
+.tab-title-selected{
+	background:#1db4ad;
+	border:0px;
+}
+.tab-title-selected a{
+	color:#fff;
+}
+.table-delete{
+	display:inline-block;
+	width:50px;
+	height:30px;
+	line-height:30px;
+	background: url(../images/icon-delete.png) no-repeat 0px 5px;
+	text-indent:22px;
+}
+.table-delete:hover{
+	color:#1db4ad;
+	background: url(../images/icon-delete-h.png) no-repeat 0px 5px;
+}
+/*8月24修改*/
+.page-main-margin-t15{
+	margin-top: 15px;
+}
+.project-visible{
+	float: left;
+	display: inline-block;
+	width: 60px;
+	height: 58px;
+	line-height: 58px;
+	background: url(../images/icon-eye.png) no-repeat left center;
+}
+.project-visible.project-invisible{
+	background: url(../images/icon-eye-disabled.png) no-repeat left center;
+}
+.project-visible:hover{
+	cursor: pointer;
+}
+.project-title{
+	float: left;
+	display: inline-block;
+	width: 145px;
+	height: 58px;
+	line-height: 58px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}

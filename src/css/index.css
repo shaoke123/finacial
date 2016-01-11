@@ -1,0 +1,68 @@
+
+.section-myUndone {
+	background: #fff;
+	border: 1px solid #dadada;
+}
+.index-title {
+	padding: 10px 0px 10px 65px;
+	background-position: 30px !important;
+}
+.undone-title {
+	background: url(../images/index-title-undone.png) no-repeat;
+	border-bottom: 1px solid #dcdcdc;
+}
+.index-myUndone-list {
+	padding: 0px 20px;
+}
+.section-quick-entrance {
+	margin-top: 5px;
+}
+.quick-entrance-title {
+	background: url(../images/index-title-quick.png) no-repeat;
+	border-bottom: 1px solid #1db4ad;
+}
+.quick-entrance-navWrap {
+	margin-top: 15px;
+}
+.nav-block.quick-entrance-navWrap li {
+	margin-left: 20px;
+}
+.nav-block.quick-entrance-navWrap .nav-block-item {
+	width: 164px;
+	height: 40px;
+	padding-top: 135px;
+	background-position: center 18px !important;
+}
+.nav-block.quick-entrance-navWrap .nav-block-item:hover {
+	background-position: center 10px !important;
+}
+#nav-block-loan {
+	background: url(../images/index-nav-loan.png) no-repeat;
+}
+#nav-block-loan:hover {
+	background: url(../images/index-nav-loan-h.png) no-repeat;
+}
+#nav-block-normal {
+	background: url(../images/index-nav-daily.png) no-repeat;
+}
+#nav-block-normal:hover {
+	background: url(../images/index-nav-daily-h.png) no-repeat;
+}
+#nav-block-travel {
+	background: url(../images/index-nav-travel.png) no-repeat;
+}
+#nav-block-travel:hover {
+	background: url(../images/index-nav-travel-h.png) no-repeat;
+}
+#nav-block-hr {
+	background: url(../images/index-nav-hr.png) no-repeat;
+}
+#nav-block-hr:hover {
+	background: url(../images/index-nav-hr-h.png) no-repeat;
+}
+#nav-block-toPublic {
+	background: url(../images/index-nav-toPublic.png) no-repeat;
+}
+#nav-block-toPublic:hover {
+	background: url(../images/index-nav-toPublic-h.png) no-repeat;
+}
