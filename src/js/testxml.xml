@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <parent>
-    <first>
-        管理
-        <second>
-            账户信息
+    <first name="管理" id="management">
+        <second name="账户信息" id="accountInfo">
         </second>
-        <second>
-            操作人员及权限
+        <second name="操作人员及权限" id="userRole">
         </second>
     </first>
-
-    <first>
-        会计账务
-        <second>
-            账目设置
-            <third>
-                账务参数
+    <first name="会计账务" id="account">
+        <second name="账务设置" id="accountSet">
+            <third name="账务参数" id="accountParam">
             </third>
-            <third>
-                会计科目
+            <third name="会计科目" id="accountCourse">
             </third>
         </second>
-        <second>
-            记账凭证
+        <second name="记账凭证" id="accountBill">
         </second>
     </first>
-
-    <first>
-        出纳
-    </first>
-
-    <first>
-        资产管理
+    <first name="出纳" id="stockSale">
+    </first >
+    <first name="资产管理" id="assetManage">
     </first>
 
 </parent>

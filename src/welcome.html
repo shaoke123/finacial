@@ -2,6 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" src="../src/js/jquery.min.js"></script>
+    <script>
+        function init(){
+            $.ajax({
+                url:'/finacial/src/js/testxml.xml',
+                type:"GET",
+                dataType:'xml',
+                async: false,
+                success:function(xml){
+                    $(xml).find("first").each(function() {
+                        var field = $(this);
+                        var dataType = field.attr("name");
+                        var div= [
+                            '<li>',
+                            '<a href="webContent/account/account.html" target="main-content-iframe" id="statistics-reimbursementRecord" data-tab="statistics-reimbursementRecord">+dataType+</a>',
+                            '</li>'
+                        ];
+                        $(".main-content").append(div);
+                        firstArray.push(dataType);
+
+                    });
+
+                }
+            });
+
+        };
+    </script>
 
 </head>
 <body>

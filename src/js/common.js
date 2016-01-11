@@ -1,10 +1,8 @@
 ﻿var aBook = aBook || {};
 
 aBook.common = (function() {
-	var currentMenu;
-	var navTab,
-		sideTab,
-		topTab;
+	var navTab;
+
 	function createNavTab() {
 		navTab = new NavTab({
 			container: $(".main-content-head"),
@@ -21,28 +19,64 @@ aBook.common = (function() {
 		});
 
 
-
 		$.ajax({
 			url:'/finacial/src/js/testxml.xml',
 			type:"GET",
 			dataType:'xml',
 			async: false,
 			success:function(xml){
-				$(xml).find("parent").each(function() {
+				$(xml).find("first").each(function() {
 					var field = $(this);
-					var dataType = field.find("first").text();//读取子节点的值
-					alert(dataType)
+					var dataType = field.attr("name");
+					var dataId=field.attr("id")
+					var div= [
+						'<ul class="sideMenu-subBlock">'+
+						'<a href="#" data-tab="'+dataId+'">'+dataType+
+						'</a>'+
+						'</ul>'
+					];
+					$(".main-content").append(div);
+
 				});
 
 			}
 		});
 
-		jQuery('iframe').contents().find('.sideMenu-subBlock a').click(function(e) {
-			e.preventDefault();
+
+
+		//jQuery('iframe').contents().find('.sideMenu-subBlock a').click(function(e) {
+		$('.sideMenu-subBlock a').click(function(e) {
+
+			$.ajax({
+				url:'/finacial/src/js/testxml.xml',
+				type:"GET",
+				dataType:'xml',
+				async: false,
+				success:function(xml){
+
+					$(xml).find("first").each(function() {
+						var field = $(this);
+						var dataType = field.children("second").text();
+						$(".main-content").html("");
+						var div= [
+							'<ul class="sideMenu-subBlock">'+
+							'<a href="#">'+dataType+
+							'</a>'+
+							'</ul>'
+						];
+						$(".main-content").append(div);
+
+					});
+
+				}
+			});
+
+
 			var tabToken = $(this).attr("data-tab");
 			var href = $(this).attr("href");
 			var contentBox = $('.main-content-box[data-tab-content=' + tabToken + ']');
 			addNavTabItem($(this));
+
 			if (contentBox.length > 0) {
 				changeContent($(this));
 				contentBox.find("iframe").attr("src", href);
@@ -407,10 +441,10 @@ Tab.prototype.changeTab = function(triggerEle) {
 
 
 $(function() {
-	//aBook.common.init();
-	document.getElementById("main-content-iframe").onload = function() {
-       aBook.common.init();
-	}
+	aBook.common.init();
+	//document.getElementById("main-content-iframe").onload = function() {
+     //  aBook.common.init();
+	//}
 });
 
 
