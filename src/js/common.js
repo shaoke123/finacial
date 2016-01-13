@@ -33,7 +33,7 @@ aBook.common = (function () {
                     var dataId = field.attr("id");
                     var div = [
                         '<ul class="sideMenu-subBlock">' +
-                        '<a href="#" data-tab="' + dataId + '">' + dataType +
+                        '<a class="sideClick" href="#" data-tab="' + dataId + '">' + dataType +
                         '</a>' +
                         '</ul>'
                     ];
@@ -46,7 +46,7 @@ aBook.common = (function () {
 
 
         //jQuery('iframe').contents().find('.sideMenu-subBlock a').click(function(e) {
-        $('.sideMenu-subBlock a').click(function (e) {
+        $(document).on("click",".sideClick",function (e) {
             var dataId = $(this).attr("data-tab");
             var tabToken = $(this).attr("data-tab");
             var tag=$(this);
@@ -63,9 +63,10 @@ aBook.common = (function () {
                         $(".main-content").html("");
                         $(this).find("second").each(function () {
                                 var dataType = $(this).attr("name");
+                                var dataId=$(this).attr("id");
                                 var div = [
                                     '<ul class="sideMenu-subBlock">' +
-                                    '<a href="#">' + dataType +
+                                    '<a class="sideClick" href="#" data-tab="' + dataId + '">' + dataType +
                                     '</a>' +
                                     '</ul>'
                                 ];

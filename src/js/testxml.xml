@@ -16,7 +16,7 @@
         <second name="记账凭证" id="accountBill">
         </second>
     </first>
-    <first name="出纳" id="stockandsales">
+    <first name="出纳" id="stockAndSales">
     </first >
     <first name="资产管理" id="property">
     </first>
