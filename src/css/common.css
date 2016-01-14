@@ -276,7 +276,15 @@ a {
 /*tab导航结束*/
 .main-content-box {
 	margin-top: 10px;
+	height: 180px;
 }
+
+.main-content-page {
+	margin-top: 10px;
+	height: 180px;
+}
+
+
 
 #main-content-iframe {
 	margin-top: 10px;
